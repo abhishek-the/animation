@@ -1,0 +1,92 @@
+body{
+    background-color: whitesmoke;
+    animation-name: move2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 1s linear all;
+}
+#mainHeading{
+    color:red;
+    font-size:3.5rem;
+    text-align: center;
+    animation-name: move1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 1s linear all;
+    text-decoration: tomato;
+}
+#secondaryHeading{
+    font-size: 3rem;
+    text-align: center;
+    color:chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 1s linear all;
+}
+
+@keyframes move{
+    0%{
+      color:blue;  
+    }
+    25%{
+        color:yellow;
+        margin-top:150px;
+    }
+    50%{
+        margin-top:30px;
+        color:white;
+        font-size:1.5rem;
+    }
+    100%{
+        margin-top:150px;
+        color:black;
+        font-size: 4rem;
+    }
+}
+@keyframes move1{
+    0%{
+      color:blue;  
+    }
+    25%{
+        color:yellow;
+        margin-top:150px;
+    }
+    50%{
+        color:white;
+        margin-top:30px;
+        font-size:1.5rem;
+    }
+    100%{
+        margin-top:150px;
+        color:black;
+        font-size: 4rem;
+    }
+}
+@keyframes move2{
+    0%{
+      background-color:blue;  
+    }
+    25%{
+        background-color:yellow;
+        margin-top:150px;
+    }
+    50%{
+        background-color:white;
+        margin-top:30px;
+        font-size:1.5rem;
+    }
+    100%{
+        margin-top:150px;
+        background-color:black;
+        font-size: 4rem;
+    }
+}
+
+
+/*
+ */
