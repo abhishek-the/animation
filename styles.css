@@ -1,10 +1,5 @@
 body{
     background-color: whitesmoke;
-    animation-name: move2;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    transition: 1s linear all;
 }
 #mainHeading{
     color:red;
@@ -23,6 +18,7 @@ body{
     color:chartreuse;
     font-family: 'Courier New', Courier, monospace;
     animation-name: move;
+    animation-delay: 3s;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -67,26 +63,3 @@ body{
         font-size: 4rem;
     }
 }
-@keyframes move2{
-    0%{
-      background-color:blue;  
-    }
-    25%{
-        background-color:yellow;
-        margin-top:150px;
-    }
-    50%{
-        background-color:white;
-        margin-top:30px;
-        font-size:1.5rem;
-    }
-    100%{
-        margin-top:150px;
-        background-color:black;
-        font-size: 4rem;
-    }
-}
-
-
-/*
- */
