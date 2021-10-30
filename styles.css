@@ -1,5 +1,11 @@
 body{
     background-color: whitesmoke;
+    animation-delay: 0s;
+    animation-name: move2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: 0.5s linear all;
 }
 #mainHeading{
     color:red;
@@ -60,6 +66,27 @@ body{
     100%{
         margin-top:150px;
         color:black;
+        font-size: 4rem;
+    }
+}
+
+
+@keyframes move2{
+    0%{
+      background-color:blue;  
+    }
+    25%{
+        background-color:yellow;
+        margin-top:150px;
+    }
+    50%{
+        margin-top:30px;
+        background-color:white;
+        font-size:1.5rem;
+    }
+    100%{
+        margin-top:150px;
+        background-color:black;
         font-size: 4rem;
     }
 }
